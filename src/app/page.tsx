@@ -1,91 +1,40 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import About from "@/component/About";
+import Banner from "@/component/Banner";
+import Contact from "@/component/Contact";
+import Leftside from "@/component/Leftside";
+import Navbar from "@/component/Navbar";
+import Project from "@/component/Project";
+import RightSide from "@/component/RightSide";
+import Footer from "@/component/footer";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main
+      className='w-full h-screen bg-bodyColor overflow-x-hidden overflow-y-scroll 
+    scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60 '
+    >
+      <Navbar />
+      {/* hero section */}
+      <div className='w-full h-[88vh] xl:flex items-center gap-20 justify-between'>
+        {" "}
+        <div className='hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0'>
+          <Leftside />
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+        <div className=' h-[88vh] w-full mx-auto p-4'>
+          <Banner />
+          {/* About */}
+          <About />
+          {/* Projects */}
+          <Project />
+          {/* contact */}
+          <Contact />
+          <Footer />
         </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        {/* rightside */}
+        <div className='hidden xl:inline-flex w-32 fixed right-0 bottom-0'>
+          <RightSide />
+        </div>
       </div>
     </main>
-  )
+  );
 }
