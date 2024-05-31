@@ -46,6 +46,7 @@ const Project = () => {
                 <li>Typescript</li>
                 <li>Tailwindcss</li>
                 <li>Sanity</li>
+                <li>Stripe API for payment</li>
                 <li>PostgressSQL and drizzle ORM</li>
               </ul>
               <div className="text-2xl flex gap-4">

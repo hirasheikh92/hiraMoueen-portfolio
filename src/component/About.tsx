@@ -11,7 +11,7 @@ const About = () => {
       <SectionTitle title="About Me" />
       <div className=" w-full mdl:w-[900px] text-base text-textDark font-medium flex mt-5 flex-col gap-4">
         <p>
-          Hi there! My name is Hira and I'm a Software Engineer with a passion
+          Hi there! My name is Hira and I am a Software Engineer with a passion
           for creating innovative and user-friendly web applications. with
           minimum 1 year of experience in creating visually stunning and
           user-friendly websites. I have a passion for crafting beautiful,
@@ -31,7 +31,7 @@ const About = () => {
           and opportunities to learn and grow, and I am excited about the
           prospect of working on your next project.
         </p>
-        <p>Here are a few technologies I’ve been working with recently:</p>
+        <p>Here are a few technologies I have been working with recently:</p>
         <ul className="max-w-[450px] text-sm font-sans grid grid-cols-2 gap-2 mt-6">
           <li className="flex items-center gap-2">
             <span className=" text-textGreen">
