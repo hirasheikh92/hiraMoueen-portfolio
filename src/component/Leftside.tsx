@@ -22,7 +22,7 @@ const Leftside = () => {
             <TbBrandGithub />
           </span>
         </Link>
-        <Link href={"https://www.linkedin.com/in/hira-moueen-6b4177198/"}>
+        <Link href={"https://www.linkedin.com/in/hira-moueen-835a14306/"}>
           <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hov text-textGreen cursor-pointer hover:translate-y-2 transition-all ease-in-out'>
             <SlSocialLinkedin />
           </span>
