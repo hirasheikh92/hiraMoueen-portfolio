@@ -7,6 +7,7 @@ import {
   panaverse2,
   pricing,
   ochiDesign,
+  spaceWebsite,
 } from "../../public/assets";
 import Link from "next/link";
 import { TbBrandGithub } from "react-icons/tb";
@@ -25,32 +26,32 @@ const Project = () => {
         <div className="w-full flex flex-col items-center justify-center gap-20 mt-10">
           <div className="flex flex-col xl:flex-row gap-6">
             <Link
-              href={"https://nextjs-ochidesign.vercel.app/"}
+              href={"https://space-website92.netlify.app/"}
               className="w-full xl:w-1/2 h-auto realtive group"
             >
-              <Image src={ochiDesign} alt="ochi-design" />
+              <Image src={spaceWebsite} alt="ochi-design" />
             </Link>
             <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <p className="font-sans text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">UI & Ux website </h3>
+              <h3 className="text-2xl font-bold">Space website </h3>
               <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
                 <span className=" text-textGreen">
                   Through this project, I learned how to:
                 </span>
                 <br />
-                Implement a scalable and responsive frontend using Next.js and
-                Tailwind CSS. Using framer motion build animations and
-                transitions use third party libraries like locomotive scroll for
-                smooth scrolling.
+                Implement a scalable and responsive website using vanilla js
+                used vite as a build tool and used grid layout for responsive
+                design and tabs for navigation using jss and css .
               </p>
               <ul className="text-sm md:text-sm font-sans tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                <li>Nextjs14</li>
-                <li>Typescript</li>
-                <li>Tailwindcss</li>
-                <li>Framer motion</li>
-                <li>Locomotive scroll</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+                <li>Vite</li>
+                <li>Responsive design</li>
+                <li>Grid layout</li>
               </ul>
               <div className="text-2xl flex gap-4">
                 <Link
