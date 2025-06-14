@@ -5,6 +5,7 @@ import panaverse2 from "./images/panaverse-2.png";
 import pricing from "./images/pricing.png";
 import ecommerce from "./images/ecommerce.png";
 import currency from "./images/currency.png";
+
 import ochiDesign from "./images/ochi-design.png";
 
 export {
