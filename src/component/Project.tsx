@@ -30,7 +30,11 @@ const Project = () => {
               href={"https://ecommerce-filtering-two.vercel.app/"}
               className="w-full xl:w-1/2 h-auto realtive group rounded-md"
             >
-              <Image src={EcomFiltering} alt="ecom-filitering" className="rounded-md" />
+              <Image
+                src={EcomFiltering}
+                alt="ecom-filitering"
+                className="rounded-md"
+              />
             </Link>
             <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <p className="font-sans text-textGreen text-sm tracking-wide">
@@ -56,13 +60,13 @@ const Project = () => {
               </ul>
               <div className="text-2xl flex gap-4">
                 <Link
-                  href={"https://github.com/hirasheikh92/hackathon-ecommerce"}
+                  href={"https://github.com/hirasheikh92/ecommerce-filtering"}
                   className="hover:text-textGreen duration-300"
                 >
                   <TbBrandGithub />
                 </Link>
                 <Link
-                  href={"https://hackathon-ecommerce-app.vercel.app/"}
+                  href={"https://ecommerce-filtering-two.vercel.app/"}
                   className="hover:text-textGreen duration-300"
                 >
                   <RxOpenInNewWindow />
@@ -78,14 +82,18 @@ const Project = () => {
               href={"https://space-website92.netlify.app/"}
               className="w-full xl:w-1/2 h-auto realtive group"
             >
-              <Image src={spaceWebsite} alt="ochi-design" className="rounded-md"  />
+              <Image
+                src={spaceWebsite}
+                alt="ochi-design"
+                className="rounded-md"
+              />
             </Link>
-            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
               <p className="font-sans text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">Space website </h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+              <p className="bg-[#112240] text-sm md:text-base p-2  xl:-mr-10  md:p-6 rounded-md">
                 <span className=" text-textGreen">
                   Through this project, I learned how to:
                 </span>
@@ -104,13 +112,13 @@ const Project = () => {
               </ul>
               <div className="text-2xl flex gap-4">
                 <Link
-                  href={"https://github.com/hirasheikh92/hackathon-ecommerce"}
+                  href={"https://github.com/hirasheikh92/space-website"}
                   className="hover:text-textGreen duration-300"
                 >
                   <TbBrandGithub />
                 </Link>
                 <Link
-                  href={"https://hackathon-ecommerce-app.vercel.app/"}
+                  href={"https://space-website92.netlify.app/"}
                   className="hover:text-textGreen duration-300"
                 >
                   <RxOpenInNewWindow />
@@ -126,7 +134,11 @@ const Project = () => {
               href={"https://nextjs-ochidesign.vercel.app/"}
               className="w-full xl:w-1/2 h-auto realtive group"
             >
-              <Image src={ochiDesign} alt="ochi-design" className="rounded-md"  />
+              <Image
+                src={ochiDesign}
+                alt="ochi-design"
+                className="rounded-md"
+              />
             </Link>
             <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <p className="font-sans text-textGreen text-sm tracking-wide">
@@ -152,13 +164,13 @@ const Project = () => {
               </ul>
               <div className="text-2xl flex gap-4">
                 <Link
-                  href={"https://github.com/hirasheikh92/hackathon-ecommerce"}
+                  href={"https://github.com/hirasheikh92/nextjs-ochidesign"}
                   className="hover:text-textGreen duration-300"
                 >
                   <TbBrandGithub />
                 </Link>
                 <Link
-                  href={"https://hackathon-ecommerce-app.vercel.app/"}
+                  href={"https://nextjs-ochidesign.vercel.app/"}
                   className="hover:text-textGreen duration-300"
                 >
                   <RxOpenInNewWindow />
