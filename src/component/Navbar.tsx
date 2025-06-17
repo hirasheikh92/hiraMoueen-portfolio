@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { logo } from "../../public/assets";
-import Link from "next/link";
+
 import { useState } from "react";
 import { MdOutlineClose, MdOutlineMenuOpen } from "react-icons/md";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
