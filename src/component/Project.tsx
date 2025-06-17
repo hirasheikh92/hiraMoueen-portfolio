@@ -8,6 +8,7 @@ import {
   pricing,
   ochiDesign,
   spaceWebsite,
+  EcomFiltering,
 } from "../../public/assets";
 import Link from "next/link";
 import { TbBrandGithub } from "react-icons/tb";
@@ -26,10 +27,58 @@ const Project = () => {
         <div className="w-full flex flex-col items-center justify-center gap-20 mt-10">
           <div className="flex flex-col xl:flex-row gap-6">
             <Link
+              href={"https://ecommerce-filtering-two.vercel.app/"}
+              className="w-full xl:w-1/2 h-auto realtive group rounded-md"
+            >
+              <Image src={EcomFiltering} alt="ecom-filitering" className="rounded-md" />
+            </Link>
+            <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+              <p className="font-sans text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Ecommerce Filtering</h3>
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-10  rounded-md">
+                <span className=" text-textGreen">
+                  Through this project, I learned how to:
+                </span>
+                <br />
+                Implement filtering and sorting functionality in an ecommerce
+                website using React and Tailwind CSS. This project showcases my
+                ability to create a user-friendly interface that allows users to
+                easily navigate and find products based on their preferences.
+                used the Context API to manage the state of the application.
+              </p>
+              <ul className="text-sm md:text-sm font-sans tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                <li>React</li>
+                <li>Tailwind</li>
+                <li>Typescript</li>
+                <li>Context API</li>
+              </ul>
+              <div className="text-2xl flex gap-4">
+                <Link
+                  href={"https://github.com/hirasheikh92/hackathon-ecommerce"}
+                  className="hover:text-textGreen duration-300"
+                >
+                  <TbBrandGithub />
+                </Link>
+                <Link
+                  href={"https://hackathon-ecommerce-app.vercel.app/"}
+                  className="hover:text-textGreen duration-300"
+                >
+                  <RxOpenInNewWindow />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* projectOne */}
+        <div className="w-full flex flex-col items-center justify-center gap-20 mt-10">
+          <div className="flex flex-col  xl:flex-row-reverse gap-6">
+            <Link
               href={"https://space-website92.netlify.app/"}
               className="w-full xl:w-1/2 h-auto realtive group"
             >
-              <Image src={spaceWebsite} alt="ochi-design" />
+              <Image src={spaceWebsite} alt="ochi-design" className="rounded-md"  />
             </Link>
             <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <p className="font-sans text-textGreen text-sm tracking-wide">
@@ -72,19 +121,19 @@ const Project = () => {
         </div>
         {/* projectTwo */}
         <div className="w-full flex flex-col items-center justify-center gap-20 mt-10">
-          <div className="flex flex-col xl:flex-row gap-6">
+          <div className="flex flex-col xl:flex-row-reverse  gap-6">
             <Link
               href={"https://nextjs-ochidesign.vercel.app/"}
               className="w-full xl:w-1/2 h-auto realtive group"
             >
-              <Image src={ochiDesign} alt="ochi-design" />
+              <Image src={ochiDesign} alt="ochi-design" className="rounded-md"  />
             </Link>
             <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
               <p className="font-sans text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">UI & Ux website </h3>
-              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+              <p className="bg-[#112240] text-sm md:text-base p-2 md:p-10 xl:-mr-10   rounded-md">
                 <span className=" text-textGreen">
                   Through this project, I learned how to:
                 </span>
